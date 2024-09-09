@@ -57,7 +57,7 @@ Private Repository:
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 
-### Steps to Make Your First Commit to a GitHub Repository:
+Steps to Make Your First Commit to a GitHub Repository:
 
 1. **Install Git**: Ensure Git is installed on your computer.
 2. **Create or Clone a Repository**:
@@ -87,13 +87,11 @@ Private Repository:
    ```
    (Pushes your commit to the GitHub repository.)
 
----
-
-### What are Commits?
+ What are Commits?
 
 A **commit** is a snapshot of the project's files at a specific point in time. Each commit saves the changes made and has a unique ID. It’s like a checkpoint in your project’s history.
 
-### Why Are Commits Useful?
+ Why Are Commits Useful?
 
 - **Track Changes**: You can see who made changes, what changed, and when.
 - **Version Control**: You can revert to earlier versions if needed.
