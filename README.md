@@ -57,6 +57,49 @@ Private Repository:
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 
+### Steps to Make Your First Commit to a GitHub Repository:
+
+1. **Install Git**: Ensure Git is installed on your computer.
+2. **Create or Clone a Repository**:
+   - **Create a repo on GitHub**: Click "New" on GitHub, name your repo, and create it.
+   - **Clone the repo**: Use the command:
+     ```bash
+     git clone <repository-url>
+     ```
+3. **Navigate to Your Repo Folder**:
+   ```bash
+   cd <repo-folder>
+   ```
+4. **Make Changes**: Create or modify files in your repo.
+5. **Stage Changes**:
+   ```bash
+   git add <file-name>   # Add specific file
+   git add .             # Add all changes
+   ```
+6. **Commit Changes**:
+   ```bash
+   git commit -m "Your commit message"
+   ```
+   (The message should describe what changes were made.)
+7. **Push Changes to GitHub**:
+   ```bash
+   git push origin main
+   ```
+   (Pushes your commit to the GitHub repository.)
+
+---
+
+### What are Commits?
+
+A **commit** is a snapshot of the project's files at a specific point in time. Each commit saves the changes made and has a unique ID. It’s like a checkpoint in your project’s history.
+
+### Why Are Commits Useful?
+
+- **Track Changes**: You can see who made changes, what changed, and when.
+- **Version Control**: You can revert to earlier versions if needed.
+- **Collaboration**: Multiple people can work on a project and merge their changes smoothly.
+
+
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
