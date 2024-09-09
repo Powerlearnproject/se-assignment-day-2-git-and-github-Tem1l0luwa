@@ -149,6 +149,27 @@ A **branch** is a separate version of your code that allows you to work on chang
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
+Role of Pull Requests in GitHub Workflow:
+
+A **pull request (PR)** lets you propose changes to a repository and ask others to review and merge them into the main codebase. It’s essential for collaboration, ensuring code is reviewed before being integrated.
+
+How Pull Requests Facilitate Code Review & Collaboration:
+
+- **Code Review**: Team members can review, comment, and suggest improvements before merging.
+- **Collaboration**: Enables discussion around proposed changes.
+- **Safe Merging**: Ensures code is tested and approved before adding to the main branch.
+
+Typical Steps in a Pull Request Workflow:
+
+1. **Create a Branch**: Make changes in a separate branch.
+2. **Push Changes**: Push your branch to GitHub.
+3. **Open a Pull Request**: On GitHub, click "New Pull Request," select your branch, and describe the changes.
+4. **Code Review**: Team members review and provide feedback.
+5. **Make Updates (if needed)**: Address any requested changes and push updates.
+6. **Merge the PR**: Once approved, merge the branch into the main codebase.
+7. **Delete Branch**: Optionally, delete the branch after merging.
+
+
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
 ## Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
